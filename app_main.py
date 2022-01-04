@@ -25,10 +25,10 @@ class StreamlitAppUI:
         self.data_path = data_path
         if self.task_mode == 'Video':
             self.data_path = st.sidebar.text_input('Data Path', data_path)
-            if os.path.exists(self.data_path):
+            if not os.path.exists(self.data_path):
                 st.write(f'{self.data_path} path does not exists!')
-                return False
-
+                self.ui_created = False
+                return
         self.ui_created = True
 
 
