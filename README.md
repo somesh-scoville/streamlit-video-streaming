@@ -2,19 +2,14 @@
 Video streaming using streamlit library
 
 ### Requirements
-
 If docker container is created no need to run following command. <br />
-Python 3.7 or later is required
+Python 3.9 or later is required
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-## Video streaming application
-
-#### To run application
-
-on remote server
+#### To run application on remote server
 
 ```bash
 $  ssh -i /Users/user_name/.ssh/id_rsa user_name@xxx.xxx.xxx.xx -L 8501:localhost:8501
@@ -29,8 +24,10 @@ $ bash run_app.sh
 $ bash run_app.sh
 ``` 
 
-To see the app in web browser use port 8501, one can change the port in [run_app.sh](run_app.sh)
-file
+### for docker
+```bash
+$ docker-compose run video_streamer black ./
+```
 
-```angular2html
-http://localhost:8501/
+To see the app in web browser use port 8501, http://localhost:8501/ <br />
+one can change the port in [run_app.sh](run_app.sh).
