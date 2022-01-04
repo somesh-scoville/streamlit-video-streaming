@@ -38,8 +38,7 @@ def main():
     if not app_ui.ui_created:
         return
 
-    if app_ui.ui_created:
-        video_streaming(app_ui)
+    video_streaming(app_ui)
 
 
 if __name__ == '__main__':
