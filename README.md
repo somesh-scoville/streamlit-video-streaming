@@ -26,7 +26,7 @@ $ bash run_app.sh
 
 ### for docker
 ```bash
-$ docker-compose run video_streamer black ./
+$ docker-compose up -d
 ```
 
 To see the app in web browser use port 8501, http://localhost:8501/ <br />
