@@ -1,4 +1,5 @@
 """Main function for the frame navigator application, Developed using Streamlit library."""
+
 import os
 
 import streamlit as st
