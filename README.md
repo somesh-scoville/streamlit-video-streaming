@@ -1,6 +1,8 @@
 # Streamlit video streaming
 Video streaming using streamlit library
 
+## [Application Demo](https://share.streamlit.io/kalesomeshwar/streamlit-video-streaming/main/app.py)
+
 ### Requirements
 If docker container is created no need to run following command. <br />
 Python 3.9 or later is required
