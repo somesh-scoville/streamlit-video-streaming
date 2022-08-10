@@ -1,5 +1,6 @@
 # pip install -r requirements.txt
-streamlit-webrtc>=0.34.1
 streamlit>=1.11.1
+streamlit-player
+streamlit-webrtc>=0.34.1
 av~=8.0.3
 aiortc~=1.2.1
