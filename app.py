@@ -33,6 +33,8 @@ class StreamlitAppUI:
                 return
             if self.data_path.startswith('https://'):
                 st.video(self.data_path, format="video/mp4")
+                self.ui_created = False
+                return
 
         self.ui_created = True
 
